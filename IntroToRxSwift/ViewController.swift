@@ -6,6 +6,15 @@
 //
 
 import UIKit
+import RxSwift
+
+struct Product {
+    let imageName: String
+    let title: String
+}
+
+struct ProductViewModel {
+}
 
 class ViewController: UIViewController {
 
